@@ -1,0 +1,138 @@
+\documentclass[a4paper,11pt]{memoir}
+\usepackage{multirow}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage[normalem]{ulem}
+
+%\setstocksize{237.8mm}{420.5mm}
+\settrimmedsize{\stockheight}{\stockwidth}{*}
+\setlrmarginsandblock{20mm}{20mm}{*}
+\setulmarginsandblock{18mm}{10mm}{*}
+\setheadfoot{0mm}{0mm}
+\setheaderspaces{*}{0mm}{*}
+\checkandfixthelayout[fixed]
+\pagestyle{empty}
+
+
+\usepackage{fontspec}
+
+\setmainfont{DejaVu Serif}
+%\setsansfont{URW Gothic}
+\setmonofont{Inconsolata}
+
+\usepackage{xeCJK}
+
+\setCJKmainfont{Noto Sans CJK JP}
+\setCJKsansfont{Noto Sans CJK JP}
+\setCJKmonofont{Noto Sans Mono CJK JP}
+
+
+\setlength\parindent{0pt}
+\defaultfontfeatures{Ligatures=TeX}
+
+\renewcommand{\arraystretch}{2.2}
+
+%\newcommand{\smallen}{\fontsize{10.5pt}{12pt}\selectfont}
+
+\begin{document}
+\sffamily
+
+\parbox[b][2.5em][t]{61mm}{
+{\bfseries 国立大学法人~~東京工業大学}
+
+\vspace{.5em}
+\tiny
+〒152-8550  東京都目黒区大岡山2-12-1\\
+\url{http://www.titech.ac.jp}
+}
+\hfill
+\includegraphics[width=15mm]{titech.ps}
+\hfill
+\parbox[b][2.5em][t]{61mm}{
+Tokyo Institute of Technology
+
+\vspace{.5em}
+\tiny
+2-12-1 Ookayama, Meguro-ku, Tokyo, 152-8550 JAPAN\\
+\url{http://www.titech.ac.jp/english}
+}
+
+\hrulefill
+
+
+\hfill
+{\large 様式2}
+
+\vspace{1em}
+\small
+【用務先応対者様へのお願い】\\
+本学では、出張者の出張計画の実施状況等の把握・確認を行うために下記の出張用務等確認書が必要となっております。\\
+貴殿におかれましては、大変お手数をおかけいたしますが、出張用務等確認書の記載内容をご確認の上、ご署名いただきますようお願い申し上げます。
+
+\hfill 東京工業大学長
+
+\vspace{1em}
+\small
+
+\sffamily
+\centering
+{\Large
+\bfseries
+出張用務等確認書
+}
+
+\vspace{2em}
+\scriptsize
+\begin{tabular}{|l|p{145mm}|}
+\hline
+\multirow{2}{*}{\bfseries 出張者名} & （所属機関、所属部局、職名、氏名を記入）：\\ \cline{2-2}
+&\\ \cline{2-2}
+\multirow{2}{*}{\bfseries 用務先} & （用務先を記入）：\\ \cline{2-2}
+&\\ \cline{2-2}
+\multirow{2}{*}{\bfseries 用務内容} & （用務内容は簡潔に記入）：\\ \cline{2-2}
+&long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long\\ \hline
+\multirow{2}{*}{\bfseries 開催期間} & （日にちのみ記入）：\\ \cline{2-2}
+&
+\underline{\hspace{5em}月\hspace{5em}日~〜~\hspace{5em}月\hspace{5em}日}\\ \hline
+\end{tabular}
+
+\vspace{2em}
+\raggedright
+\hspace{20mm} {\bfseries 上記内容について確認しました。}：\\
+
+\vspace{3em}
+\hspace{20mm}【用務先応対者】（下記の項目に記載の上、氏名欄に署名願います）\\
+
+\vspace{1em}
+\hspace{45mm} 
+\parbox[t][22em][t]{44em}{
+機関名\\
+
+\vspace{.5em}
+\hrulefill
+
+所属\\
+
+\vspace{.5em}
+\hrulefill
+
+職名・氏名\\
+
+\vspace{.5em}
+\hrulefill
+
+\vspace{2.0em}
+\uline{連絡先~~電話\hfill E-mail \hfill}
+
+\vspace{2.0em}
+\underline{参加・往訪確認日~平成\hspace{5em}年\hspace{5em}月\hspace{5em}日}
+}
+
+\hrulefill
+
+※学会参加の場合は、主催者からの署名、または他機関からの参加者１人以上の署名をいただいてください。\\
+※学会の参加・往訪確認日は、開催期間中全てを確認いただけない場合には、一時的にでも確認いただける日を確認日として署名をいただいてください。\\
+※関係資料で用務先応対者の確認署名に代え得るものがある場合には、本様式裏面へ当該資料を貼り付けることで、署名を省略することができます。この場合、署名欄には「代替資料添付」の旨を大書してください。（ただし、署名以外の各項目は各自で記入してください。）
+
+
+\end{document}

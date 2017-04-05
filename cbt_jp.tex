@@ -16,8 +16,8 @@
 
 \usepackage{fontspec}
 
-\setmainfont{DejaVu Serif}
-%\setsansfont{URW Gothic}
+%\setmainfont{DejaVu Serif}
+\setsansfont{DejaVu Sans}
 \setmonofont{Inconsolata}
 
 \usepackage{xeCJK}
@@ -31,6 +31,11 @@
 \defaultfontfeatures{Ligatures=TeX}
 
 \renewcommand{\arraystretch}{2.2}
+
+\newcommand{\name}{情報理工学院、数理・計算科学系、助教、アラン~チューリング}
+\newcommand{\place}{九州大学~伊都キャンパス}
+\newcommand{\work}{計算可能性の定義と限界の研究についての研究打ち合わせ}
+\newcommand{\period}{1月1日~〜~12月31日}
 
 %\newcommand{\smallen}{\fontsize{10.5pt}{12pt}\selectfont}
 
@@ -86,14 +91,14 @@ Tokyo Institute of Technology
 \begin{tabular}{|l|p{145mm}|}
 \hline
 \multirow{2}{*}{\bfseries 出張者名} & （所属機関、所属部局、職名、氏名を記入）：\\ \cline{2-2}
-&\\ \cline{2-2}
+&\normalsize\name\\[1.0ex] \cline{2-2}
 \multirow{2}{*}{\bfseries 用務先} & （用務先を記入）：\\ \cline{2-2}
-&\\ \cline{2-2}
+&\normalsize\place\\[1.0ex] \cline{2-2}
 \multirow{2}{*}{\bfseries 用務内容} & （用務内容は簡潔に記入）：\\ \cline{2-2}
-&long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long\\ \hline
+&\normalsize\work\\[5ex] \hline
 \multirow{2}{*}{\bfseries 開催期間} & （日にちのみ記入）：\\ \cline{2-2}
 &
-\underline{\hspace{5em}月\hspace{5em}日~〜~\hspace{5em}月\hspace{5em}日}\\ \hline
+\normalsize\underline{\period}\\ \hline
 \end{tabular}
 
 \vspace{2em}
